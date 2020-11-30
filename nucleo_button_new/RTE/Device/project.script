@@ -1,0 +1,4 @@
+load STM32F302R8Tx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "C:\ST\stm32_projects\nucleo_button_new\RTE\Device\STM32F302R8Tx\" 

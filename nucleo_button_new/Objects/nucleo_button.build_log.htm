@@ -1,0 +1,594 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Aidar Alimbayev, Nazarbayev University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.15
+Assembler:       Armasm.exe V6.15
+Linker/Locator:  ArmLink.exe V6.15
+Library Manager: ArmAr.exe V6.15
+Hex Converter:   FromElf.exe V6.15
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\ST\stm32_projects\nucleo_button_new\nucleo_button.uvprojx
+Project File Date:  11/30/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.15', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling stm32f3xx_hal_crc_ex.c...
+compiling main.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/MDK/Boards/ST/STM32F3-CubeMX/Common/LED_STM32F3-CubeMX.c(56): warning: use of GNU empty initializer extension [-Wgnu-empty-initializer]
+static const GPIO_PIN LED_PIN[] = {
+                                  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/MDK/Boards/ST/STM32F3-CubeMX/Common/LED_STM32F3-CubeMX.c(56): warning: zero size arrays are an extension [-Wzero-length-array]
+2 warnings generated.
+compiling LED_STM32F3-CubeMX.c...
+compiling stm32f3xx_hal_cec.c...
+compiling stm32f3xx_hal_adc_ex.c...
+compiling stm32f3xx_hal_dac_ex.c...
+compiling stm32f3xx_hal_comp.c...
+compiling stm32f3xx_hal_dac.c...
+compiling stm32f3xx_hal_can.c...
+compiling stm32f3xx_hal_adc.c...
+compiling stm32f3xx_hal_crc.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/MDK/Boards/ST/STM32F3-CubeMX/Common/Buttons_STM32F3-CubeMX.c(57): warning: use of GNU empty initializer extension [-Wgnu-empty-initializer]
+static const PIN_CONFIG_t PIN_CONFIG[] = {
+                                         ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/MDK/Boards/ST/STM32F3-CubeMX/Common/Buttons_STM32F3-CubeMX.c(57): warning: zero size arrays are an extension [-Wzero-length-array]
+2 warnings generated.
+compiling Buttons_STM32F3-CubeMX.c...
+RTE/Device/STM32F302R8Tx/STCubeGenerated/Src/stm32f3xx_it.c(84): warning: function 'HardFault_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/STM32F302R8Tx/STCubeGenerated/Src/stm32f3xx_it.c(99): warning: function 'MemManage_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/STM32F302R8Tx/STCubeGenerated/Src/stm32f3xx_it.c(114): warning: function 'BusFault_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+RTE/Device/STM32F302R8Tx/STCubeGenerated/Src/stm32f3xx_it.c(129): warning: function 'UsageFault_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+4 warnings generated.
+compiling stm32f3xx_it.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c(92): warning: no previous extern declaration for non-static variable 'uwTick' [-Wmissing-variable-declarations]
+__IO uint32_t uwTick;
+              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c(92): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+__IO uint32_t uwTick;
+     ^
+1 warning generated.
+compiling stm32f3xx_hal.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c(259): warning: function 'HAL_NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+1 warning generated.
+compiling stm32f3xx_hal_cortex.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c(101): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal.h(46): warning: In file included from...
+./RTE/Device/STM32F302R8Tx/STCubeGenerated/Inc\stm32f3xx_hal_conf.h(240): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_flash.h(104): warning: padding struct 'FLASH_ProcessTypeDef' with 3 bytes to align 'DataRemaining' [-Wpadded]
+  __IO uint32_t               DataRemaining;    /*!< Internal variable to save the remaining pages to erase or half-word to program in IT context */
+                              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_flash.h(108): warning: padding struct 'FLASH_ProcessTypeDef' with 4 bytes to align 'Data' [-Wpadded]
+  __IO uint64_t               Data;             /*!< Internal variable to save data to be programmed */
+                              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_flash.h(112): warning: padding struct 'FLASH_ProcessTypeDef' with 3 bytes to align 'ErrorCode' [-Wpadded]
+  __IO uint32_t               ErrorCode;        /*!< FLASH error code                    
+                              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c(137): warning: no previous extern declaration for non-static variable 'pFlash' [-Wmissing-variable-declarations]
+FLASH_ProcessTypeDef pFlash;
+                     ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c(137): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+FLASH_ProcessTypeDef pFlash;
+^
+4 warnings generated.
+compiling stm32f3xx_hal_flash.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c(94): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal.h(46): warning: In file included from...
+./RTE/Device/STM32F302R8Tx/STCubeGenerated/Inc\stm32f3xx_hal_conf.h(208): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_dma.h(136): warning: padding struct 'struct __DMA_HandleTypeDef' with 2 bytes to align 'Parent' [-Wpadded]
+  void                  *Parent;                                                      /*!< Parent object state                    */  
+                         ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c(674): warning: enumeration value 'HAL_DMA_XFER_ALL_CB_ID' not explicitly handled in switch [-Wswitch-enum]
+    switch (CallbackID)
+            ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c(750): warning: default label in switch which covers all enumeration values [-Wcovered-switch-default]
+    default:
+    ^
+3 warnings generated.
+compiling stm32f3xx_hal_dma.c...
+compiling stm32f3xx_hal_hrtim.c...
+compiling stm32f3xx_hal_i2s_ex.c...
+compiling stm32f3xx_hal_i2s.c...
+compiling stm32f3xx_hal_irda.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c(59): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal.h(46): warning: In file included from...
+./RTE/Device/STM32F302R8Tx/STCubeGenerated/Inc\stm32f3xx_hal_conf.h(240): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_flash.h(104): warning: padding struct 'FLASH_ProcessTypeDef' with 3 bytes to align 'DataRemaining' [-Wpadded]
+  __IO uint32_t               DataRemaining;    /*!< Internal variable to save the remaining pages to erase or half-word to program in IT context */
+                              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_flash.h(108): warning: padding struct 'FLASH_ProcessTypeDef' with 4 bytes to align 'Data' [-Wpadded]
+  __IO uint64_t               Data;             /*!< Internal variable to save data to be programmed */
+                              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_flash.h(112): warning: padding struct 'FLASH_ProcessTypeDef' with 3 bytes to align 'ErrorCode' [-Wpadded]
+  __IO uint32_t               ErrorCode;        /*!< FLASH error code                    
+                              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c(335): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+  rdptmp = FLASH_OB_GetRDP();
+         ~ ^~~~~~~~~~~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c(59): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal.h(46): warning: In file included from...
+./RTE/Device/STM32F302R8Tx/STCubeGenerated/Inc\stm32f3xx_hal_conf.h(240): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_flash.h(320): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h(196): warning: padding struct 'FLASH_OBProgramInitTypeDef' with 2 bytes to align 'DATAAddress' [-Wpadded]
+  uint32_t DATAAddress; /*!< DATAAddress: Address of the option byte DATA to be programmed
+           ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h(169): warning: padding size of 'FLASH_OBProgramInitTypeDef' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c(467): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+  pOBInit->RDPLevel = FLASH_OB_GetRDP();
+                    ~ ^~~~~~~~~~~~~~~~~
+7 warnings generated.
+compiling stm32f3xx_hal_flash_ex.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c(65): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal.h(46): warning: In file included from...
+./RTE/Device/STM32F302R8Tx/STCubeGenerated/Inc\stm32f3xx_hal_conf.h(264): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_i2c.h(226): warning: padding struct 'struct __I2C_HandleTypeDef' with 1 byte to align 'ErrorCode' [-Wpadded]
+  __IO uint32_t              ErrorCode;      /*!< I2C Error code                            */
+                             ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c(65): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal.h(46): warning: In file included from...
+./RTE/Device/STM32F302R8Tx/STCubeGenerated/Inc\stm32f3xx_hal_conf.h(208): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_dma.h(136): warning: padding struct 'struct __DMA_HandleTypeDef' with 2 bytes to align 'Parent' [-Wpadded]
+  void                  *Parent;                                                      /*!< Parent object state                    */  
+                         ^
+2 warnings generated.
+compiling stm32f3xx_hal_i2c_ex.c...
+compiling stm32f3xx_hal_iwdg.c...
+compiling stm32f3xx_hal_gpio.c...
+compiling stm32f3xx_hal_nand.c...
+compiling stm32f3xx_hal_nor.c...
+compiling stm32f3xx_hal_opamp.c...
+compiling stm32f3xx_hal_opamp_ex.c...
+compiling stm32f3xx_hal_pccard.c...
+compiling stm32f3xx_hal_pcd.c...
+compiling stm32f3xx_hal_pcd_ex.c...
+compiling stm32f3xx_hal_pwr_ex.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c(299): warning: unused parameter 'Regulator' [-Wunused-parameter]
+void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry)
+                                     ^
+1 warning generated.
+compiling stm32f3xx_hal_pwr.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c(121): warning: no previous extern declaration for non-static variable 'aPLLMULFactorTable' [-Wmissing-variable-declarations]
+const uint8_t aPLLMULFactorTable[16] = { 2U,  3U,  4U,  5U,  6U,  7U,  8U,  9U,
+              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c(121): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+const uint8_t aPLLMULFactorTable[16] = { 2U,  3U,  4U,  5U,  6U,  7U,  8U,  9U,
+      ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c(123): warning: no previous extern declaration for non-static variable 'aPredivFactorTable' [-Wmissing-variable-declarations]
+const uint8_t aPredivFactorTable[16] = { 1U, 2U,  3U,  4U,  5U,  6U,  7U,  8U,
+              ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c(123): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+const uint8_t aPredivFactorTable[16] = { 1U, 2U,  3U,  4U,  5U,  6U,  7U,  8U,
+      ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c(835): warning: unused parameter 'RCC_MCOx' [-Wunused-parameter]
+void HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_MCODiv)
+                                ^
+3 warnings generated.
+compiling stm32f3xx_hal_rcc.c...
+compiling stm32f3xx_hal_rtc.c...
+compiling stm32f3xx_hal_rtc_ex.c...
+compiling stm32f3xx_hal_smartcard.c...
+compiling stm32f3xx_hal_sdadc.c...
+compiling stm32f3xx_hal_spi.c...
+compiling stm32f3xx_hal_rcc_ex.c...
+compiling stm32f3xx_hal_smartcard_ex.c...
+compiling stm32f3xx_hal_spi_ex.c...
+compiling stm32f3xx_hal_smbus.c...
+compiling stm32f3xx_hal_sram.c...
+compiling stm32f3xx_hal_tim.c...
+compiling stm32f3xx_hal_tim_ex.c...
+compiling stm32f3xx_hal_tsc.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(242): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal.h(46): warning: In file included from...
+./RTE/Device/STM32F302R8Tx/STCubeGenerated/Inc\stm32f3xx_hal_conf.h(264): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_i2c.h(226): warning: padding struct 'struct __I2C_HandleTypeDef' with 1 byte to align 'ErrorCode' [-Wpadded]
+  __IO uint32_t              ErrorCode;      /*!< I2C Error code                            */
+                             ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(242): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal.h(46): warning: In file included from...
+./RTE/Device/STM32F302R8Tx/STCubeGenerated/Inc\stm32f3xx_hal_conf.h(208): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Inc\stm32f3xx_hal_dma.h(136): warning: padding struct 'struct __DMA_HandleTypeDef' with 2 bytes to align 'Parent' [-Wpadded]
+  void                  *Parent;                                                      /*!< Parent object state                    */  
+                         ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(658): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_GENERATE_START_WRITE);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(663): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_GENERATE_START_WRITE);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(696): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(701): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(782): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_GENERATE_START_READ);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(787): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_GENERATE_START_READ);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(806): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      (*hi2c->pBuffPtr++) = hi2c->Instance->RXDR;
+                          ~ ~~~~~~~~~~~~~~~~^~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(821): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(826): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1073): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          (*hi2c->pBuffPtr++) = hi2c->Instance->RXDR;
+                              ~ ~~~~~~~~~~~~~~~~^~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1088): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      (*hi2c->pBuffPtr++) = hi2c->Instance->RXDR;
+                          ~ ~~~~~~~~~~~~~~~~^~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1183): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, I2C_GENERATE_START_WRITE);
+    ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1252): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, I2C_GENERATE_START_READ);
+    ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1434): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, I2C_GENERATE_START_WRITE);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1458): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_GENERATE_START_WRITE);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1542): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, I2C_GENERATE_START_READ);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1566): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_GENERATE_START_READ);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1786): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_NO_STARTSTOP);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1791): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_NO_STARTSTOP);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1825): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1830): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1940): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_GENERATE_START_READ);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1945): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_GENERATE_START_READ);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1957): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      (*hi2c->pBuffPtr++) = hi2c->Instance->RXDR;
+                          ~ ~~~~~~~~~~~~~~~~^~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1972): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(1977): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(2093): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, I2C_NO_STARTSTOP);
+    ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(2192): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, I2C_GENERATE_START_READ);
+    ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(2304): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, I2C_NO_STARTSTOP);
+    ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(2419): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, I2C_GENERATE_START_READ);
+    ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(2618): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, xferrequest);
+    ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(2691): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    I2C_TransferConfig(hi2c, DevAddress, hi2c->XferSize, xfermode, xferrequest);
+    ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(3287): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    (*hi2c->pBuffPtr++) = hi2c->Instance->RXDR;
+                        ~ ~~~~~~~~~~~~~~~~^~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(3307): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+        I2C_TransferConfig(hi2c, devaddress, hi2c->XferSize, I2C_RELOAD_MODE, I2C_NO_STARTSTOP);
+        ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(3314): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, devaddress, hi2c->XferSize, hi2c->XferOptions, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(3318): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+          I2C_TransferConfig(hi2c, devaddress, hi2c->XferSize, I2C_AUTOEND_MODE, I2C_NO_STARTSTOP);
+          ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(3437): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      (*hi2c->pBuffPtr++) = hi2c->Instance->RXDR;
+                          ~ ~~~~~~~~~~~~~~~~^~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(3545): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      I2C_TransferConfig(hi2c, devaddress, hi2c->XferSize, xfermode, I2C_NO_STARTSTOP);
+      ~~~~~~~~~~~~~~~~~~                   ~~~~~~^~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(3644): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+  I2C_TransferConfig(hi2c, DevAddress, MemAddSize, I2C_RELOAD_MODE, I2C_GENERATE_START_WRITE);
+  ~~~~~~~~~~~~~~~~~~                   ^~~~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(3711): warning: implicit conversion loses integer precision: 'uint16_t' (aka 'unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+  I2C_TransferConfig(hi2c, DevAddress, MemAddSize, I2C_SOFTEND_MODE, I2C_GENERATE_START_WRITE);
+  ~~~~~~~~~~~~~~~~~~                   ^~~~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(4058): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    hi2c->XferCount = I2C_GET_DMA_REMAIN_DATA(hi2c);
+                    ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(304): note: expanded from macro 'I2C_GET_DMA_REMAIN_DATA'
+                                            ((uint32_t)((__HANDLE__)->hdmatx->Instance->CNDTR)) : \
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(4058): warning: implicit conversion loses integer precision: 'uint32_t' (aka 'unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+    hi2c->XferCount = I2C_GET_DMA_REMAIN_DATA(hi2c);
+                    ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(305): note: expanded from macro 'I2C_GET_DMA_REMAIN_DATA'
+                                            ((uint32_t)((__HANDLE__)->hdmarx->Instance->CNDTR)))
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(4072): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    (*hi2c->pBuffPtr++) = hi2c->Instance->RXDR;
+                        ~ ~~~~~~~~~~~~~~~~^~~~
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c(4153): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    (*hi2c->pBuffPtr++) = hi2c->Instance->RXDR;
+                        ~ ~~~~~~~~~~~~~~~~^~~~
+46 warnings generated.
+compiling stm32f3xx_hal_i2c.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_adc.c(2009): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_adc.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_comp.c(1051): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_comp.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_exti.c(317): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_exti.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_dma.c(352): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_dma.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_dac.c(352): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_dac.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_crc.c(135): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+^
+1 warning generated.
+compiling stm32f3xx_ll_crc.c...
+compiling stm32f3xx_hal_uart.c...
+compiling stm32f3xx_hal_usart.c...
+compiling stm32f3xx_hal_wwdg.c...
+compiling stm32f3xx_hal_uart_ex.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_gpio.c(301): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_gpio.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_i2c.c(255): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_i2c.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_hrtim.c(101): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_hrtim.c...
+compiling stm32f3xx_ll_fmc.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_opamp.c(254): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_opamp.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_pwr.c(101): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_pwr.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_rcc.c(1119): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_rcc.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_rtc.c(892): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_rtc.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_spi.c(635): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_spi.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_tim.c(1465): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+                                                                                ^
+1 warning generated.
+compiling stm32f3xx_ll_tim.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/MDK/Driver/stm32f3xx_ll.c(13): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+#endif
+      ^
+1 warning generated.
+compiling stm32f3xx_ll.c...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.1.0/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usart.c(458): warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+^
+1 warning generated.
+compiling stm32f3xx_ll_usart.c...
+assembling startup_stm32f302x8.s...
+compiling stm32f3xx_hal_msp.c...
+compiling system_stm32f3xx.c...
+compiling stm32f3xx_ll_utils.c...
+linking...
+Program Size: Code=2964 RO-data=472 RW-data=4 ZI-data=1640  
+".\Objects\nucleo_button.axf" - 0 Error(s), 93 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                project-path/Keil.FrameworkCubeMX.1.0.0.pack
+                Keil.FrameworkCubeMX.1.0.0
+                STM32CubeMX generated pack description
+   * Component: STM32CubeMX Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.12.0.pack
+                Keil.MDK-Middleware.7.12.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: Buttons Version: 1.0.0
+   * Component: LED Version: 1.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F3xx_DFP.2.1.0.pack
+                Keil.STM32F3xx_DFP.2.1.0
+                STMicroelectronics STM32F3 Series Device Support and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: STM32Cube HAL Version: 1.9.0
+   * Component: Buttons Version: 0.9.0
+   * Component: LED Version: 0.9.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F302R8Tx
+  .\RTE\Device\STM32F302R8Tx\STCubeGenerated
+  .\RTE\Device\STM32F302R8Tx\STCubeGenerated\Inc
+  .\RTE\_Target_1
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\user\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board
+  C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include
+  C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.1.0\Drivers\STM32F3xx_HAL_Driver\Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:Buttons:1.0.0 (API)
+      Include file:  Board\Board_Buttons.h
+
+   * Component: ::Board Support:LED:1.0.0 (API)
+      Include file:  Board\Board_LED.h
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil.STM32CubeMX::Device:STM32Cube Framework:STM32CubeMX:1.0.0
+      Include file:  MX_Device.h
+      Source file:   STCubeGenerated\Src\stm32f3xx_hal_msp.c
+      Include file:  STCubeGenerated\Inc\stm32f3xx_hal_conf.h
+
+   * Component: Keil.STM32CubeMX::Device:STM32Cube HAL:1.9.0
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_crc_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_crc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dac_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_adc_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_can.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_comp.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cec.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_hrtim.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dac.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2s.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2s_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_irda.c
+      Source file:   MDK\Driver\stm32f3xx_ll.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_adc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pcd.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_smartcard_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rtc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rtc_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_comp.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_sdadc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_nor.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_smartcard.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_crc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_dac.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_smbus.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_adc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_nand.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_opamp_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pccard.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_opamp.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_sram.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_iwdg.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tsc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_usart.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_wwdg.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_fmc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_opamp.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_usart.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_exti.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_i2c.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_rcc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_rtc.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_dma.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_hrtim.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_utils.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_tim.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_spi.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_pwr.c
+      Source file:   Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_ll_gpio.c
+
+   * Component: Keil.STM32CubeMX::Device:Startup:1.0.0
+      Source file:   STCubeGenerated\Src\system_stm32f3xx.c
+      Source file:   STCubeGenerated\MDK-ARM\startup_stm32f302x8.s
+
+   * Component: Keil.STM32F3-CubeMX::Board Support:Buttons:0.9.0
+      Source file:   MDK\Boards\ST\STM32F3-CubeMX\Common\Buttons_STM32F3-CubeMX.c
+
+   * Component: Keil.STM32F3-CubeMX::Board Support:LED:0.9.0
+      Source file:   MDK\Boards\ST\STM32F3-CubeMX\Common\LED_STM32F3-CubeMX.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
